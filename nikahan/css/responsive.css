@@ -20,7 +20,7 @@
     main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{background-position:50% 50%}
 }
 /* sm */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 848px) and (max-width: 991px) {
 	article.countdown-pan[role="countdown"]{padding-top:53.5%}
 	article.introduction-pan[role="introduction"]{ padding-top:53.5%}
 	article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{ padding-top:53.5%}
@@ -29,7 +29,7 @@
     main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{background-position:50% 50%}
 }
 /* xs */
-@media (max-width: 767px) {
+@media (max-width: 848px) {
 	body{background-image:url(../images/bg-co.png),url(../images/bg-image.jpg);background-position:47% 0; position:static; background-size:cover;background-repeat:repeat,no-repeat;}
 	main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{ position: static; background-image:none}
 	main[role="main-wrapper-iamge"]{ background-image: none}
@@ -37,13 +37,16 @@
 	article.countdown-pan[role="countdown"],article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{padding-left: 10px; padding-bottom: 50px; bottom: 0px; position: fixed}
 	article.introduction-pan[role="introduction"]{ padding-top:0px;}
 	
-	header[role="header"] > hgroup > h1 > a{width: 150px;font-size:20px;height: 50px;}
+	header[role="header"] > hgroup > h1 > a{width: 250px;font-size:20px;height: 50px;}
 	
 	header[role="header"]{top: 00px;bottom:inherit;padding:0;}
 	header[role="header"] > hgroup{overflow:inherit;padding: 0px;height: 50px;}
 	header[role="header"] > hgroup nav{ position: relative;width:100%; text-align:center}
 	footer.desk,header[role="header"] > hgroup ul[role="socil-icons"].desk-social{ display:none}
-	header[role="header"] > hgroup nav ul,header[role="header"] > hgroup ul[role="socil-icons"]{ text-align:center; width:100%}
+	header[role="header"] > hgroup nav ul,header[role="header"] > hgroup ul[role="socil-icons"]{text-align:center;width:100%;background-color: rgba(255,255,255,0.7);}
+
+
+ul.nav.nav-tabs.open {}
 	header[role="header"] > hgroup nav ul > li{ display:block; margin:0; border-bottom:1px solid #CCC}
 	header[role="header"] > hgroup nav ul > li a{ line-height:40px}
 	footer.mobile p{ text-align:center; line-height:18px}
