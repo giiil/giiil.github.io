@@ -20,7 +20,7 @@
     main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{background-position:50% 50%}
 }
 /* sm */
-@media (min-width: 848px) and (max-width: 991px) {
+@media (min-width: 849px) and (max-width: 991px) {
 	article.countdown-pan[role="countdown"]{padding-top:53.5%}
 	article.introduction-pan[role="introduction"]{ padding-top:53.5%}
 	article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{ padding-top:53.5%}
