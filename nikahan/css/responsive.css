@@ -22,8 +22,8 @@
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
 	article.countdown-pan[role="countdown"]{padding-top: 50%;}
-	article.introduction-pan[role="introduction"]{padding-top: 130px;}
-	article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{padding-top: 150px;}
+	article.introduction-pan[role="introduction"]{padding-top: 35%;}
+	article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{padding-top: 50%;}
 	header[role="header"]{ padding:0 1%}
 	header[role="header"] > hgroup nav ul > li{ margin:0 4.5px}
     main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{background-position:50% 50%}
