@@ -301,7 +301,7 @@ article[role="introduction"].introduction-pan{ padding-top:17.6%}
 
 article[role="introduction"].introduction-pan p{ letter-spacing:1px; line-height:18px; font-weight:300}
 
-article[role="introduction"].introduction-pan ul{ margin:0; padding:0; text-align:left; padding-top:50px;}
+article[role="introduction"].introduction-pan ul{margin:0;padding: 0;text-align:left;padding-top: 5px;}
 
 article[role="introduction"].introduction-pan ul > li{ display:inline-block; margin:0 25px}
 
