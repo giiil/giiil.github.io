@@ -20,7 +20,7 @@
     main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{background-position:50% 50%}
 }
 /* sm */
-@media (min-width: 849px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	article.countdown-pan[role="countdown"]{padding-top:53.5%}
 	article.introduction-pan[role="introduction"]{ padding-top:53.5%}
 	article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{ padding-top:53.5%}
@@ -29,7 +29,7 @@
     main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{background-position:50% 50%}
 }
 /* xs */
-@media (max-width: 848px) {
+@media (max-width: 767px) {
 	body{background-image:url(../images/bg-co.png),url(../images/bg-image.jpg);background-position:47% 0; position:static; background-size:cover;background-repeat:repeat,no-repeat;}
 	main[role="main-wrapper-iamge"],main[role="main-wrapper-iamge"] > .over-bg-color{ position: static; background-image:none}
 	main[role="main-wrapper-iamge"]{ background-image: none}
