@@ -44,7 +44,8 @@
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Oranienbaum);
+@import url(https://fonts.googleapis.com/css?family=Ovo);
+@import url(https://fonts.googleapis.com/css?family=Muli);
 
 html {
 
@@ -88,9 +89,10 @@ button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submi
     color: white;
     padding: 10px;
     margin-right: 5px;
-    font-family: "Roboto";
+    font-family: "Muli";
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #savedate a{
@@ -212,9 +214,9 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 @font-face {
 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Muli', sans-serif;
 
-	font-family: 'Oranienbaum', serif;
+	font-family: 'Ovo', serif;
 
 }
 
@@ -232,7 +234,7 @@ header[role="header"] > hgroup{background-color:rgba(255,255,255,0.7); overflow:
 
 header[role="header"] > hgroup > h1{padding:0;margin:0;display:inline-block;position:relative;z-index:5;}
 
-header[role="header"] > hgroup > h1 > a{background-color:#353535;text-transform:uppercase;font-family: 'Oranienbaum', serif;text-align:center;font-size: 15px;line-height:52px;color:#FFF;display:inline-block;width: 200px;font-weight:500;letter-spacing:5px;}
+header[role="header"] > hgroup > h1 > a{background-color:#353535;text-transform:uppercase;font-family: 'Ovo', serif;text-align:center;font-size: 12px;line-height: 52px;color:#FFF;width: 212px;display:inline-block; 210pxfont-weight:500;letter-spacing: 4px;}
 
 header[role="header"] > hgroup > h1 > a:hover{ text-decoration:none}
 
@@ -240,9 +242,9 @@ header[role="header"] > hgroup > h1 > a:hover{ text-decoration:none}
 
 #menu-button{ display:none}
 
-header[role="header"] > hgroup nav{ float:none; clear:both; text-align:center; display:inline-block; position:absolute; left:0; right:0}
+header[role="header"] > hgroup nav{float:none;clear:both;text-align:center;display:inline-block;position:absolute;left:0;right:0;}
 
-header[role="header"] > hgroup nav ul{ padding:0; margin:0; list-style:none; text-align:center; border:none}
+header[role="header"] > hgroup nav ul{padding:0;margin:0;list-style:none;text-align:center;border:none;}
 
 header[role="header"] > hgroup nav ul > li{ float:none; display:inline-block; font-size:12px; text-transform:uppercase; letter-spacing:2px; font-weight:400; margin:0 18.5px}
 
@@ -280,18 +282,18 @@ footer.mobile{ display:none}
 
 article[role="countdown"].countdown-pan{ padding-top:21.5%}
 
-article[role="countdown"].countdown-pan h2{font-family: 'Oranienbaum', serif; padding:0; margin:0; font-size:24px; line-height:26px; text-transform:uppercase; font-weight:400; letter-spacing:3px}
+article[role="countdown"].countdown-pan h2{font-family: 'Ovo', serif; padding:0; margin:0; font-size:24px; line-height:26px; font-weight:400; letter-spacing:3px}
 
-article[role="countdown"].countdown-pan h2 > span{ font-size:72px; line-height:72px; position:relative; letter-spacing:inherit; display:inline-block}
+article[role="countdown"].countdown-pan h2 > span{ font-size:55px; line-height:72px; position:relative; letter-spacing:inherit; display:inline-block}
 
 article[role="countdown"].countdown-pan h2 > span:after{ content:""; display:block; width:98px; height:3px; position:absolute; left:0; right:0; bottom:-5px; margin:0 auto; background-color:#e84d49}
 
-article[role="countdown"].countdown-pan > p{text-transform:uppercase;font-weight: 400;letter-spacing:3px;margin:0;padding:0;padding-top: 5px;}
+article[role="countdown"].countdown-pan > p{text-transform:uppercase;font-weight: 400;letter-spacing: 3px;margin:0;padding:0;padding-top: 5px;font-size: 10px;}
 
 
 /*===== Page-title ===*/
 
-article header.page-title h2{text-align: left;font-family: 'Oranienbaum', serif;text-transform:uppercase;font-size:24px;line-height:26px;color:#353535;font-weight:400;letter-spacing:3px;position:relative;margin-bottom:36px;padding:0;margin-top:0;}
+article header.page-title h2{text-align: left;font-family: 'Ovo', serif;text-transform:uppercase;font-size:24px;line-height:26px;color:#353535;font-weight:400;letter-spacing:1px;position:relative;margin-bottom:36px;padding:0;margin-top:0;}
 
 article header.page-title h2:after{content:"";display:block;width:98px;height:3px;position:absolute;left:0;right:0;bottom:-12px;margin-right: 0px;background-color:#e84d49;}
 
@@ -299,7 +301,7 @@ article header.page-title h2:after{content:"";display:block;width:98px;height:3p
 
 article[role="introduction"].introduction-pan{ padding-top:17.6%}
 
-article[role="introduction"].introduction-pan p{ letter-spacing:1px; line-height:18px; font-weight:300}
+article[role="introduction"].introduction-pan p{letter-spacing:1px;line-height:18px;font-weight:300;font-size: 12px;}
 
 article[role="introduction"].introduction-pan ul{margin:0;padding: 0;text-align:left;padding-top: 5px;}
 
@@ -309,9 +311,9 @@ article[role="introduction"].introduction-pan ul > li,article[role="introduction
 
 article[role="introduction"].introduction-pan ul > li > i{ font-size:26px; padding-bottom:18px}
 
-article[role="introduction"].introduction-pan ul > li > h6{ font-weight:700; font-size:12px; line-height:13px; text-transform:uppercase; letter-spacing:2px}
+article[role="introduction"].introduction-pan ul > li > h6{font-weight:700;font-size: 11px;line-height:13px;text-transform:uppercase;letter-spacing:2px;}
 
-article[role="introduction"].introduction-pan ul > li > p{ font-size:12px; line-height:18px; letter-spacing:inherit; padding-top:5px}
+article[role="introduction"].introduction-pan ul > li > p{font-size: 11px;line-height:18px;letter-spacing:inherit;padding-top:5px;}
 
 article[role="introduction"].introduction-pan ul > li:hover i{ color:#e84d49}
 
