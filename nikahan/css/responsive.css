@@ -21,7 +21,7 @@
 }
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-	article.countdown-pan[role="countdown"]{padding-top: 35%;}
+	article.countdown-pan[role="countdown"]{padding-top: 50%;}
 	article.introduction-pan[role="introduction"]{padding-top: 130px;}
 	article.subscribe-pan[role="subscribe"],article.contact-pan[role="contact"]{padding-top: 150px;}
 	header[role="header"]{ padding:0 1%}
