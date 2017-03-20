@@ -270,7 +270,7 @@ header[role="header"] > hgroup ul[role="socil-icons"] li a:hover{ color:#e84d49}
 
 header[role="header"] footer{ text-align:right}
 
-header[role="header"] footer > p,footer.mobile p{ font-size:12px; line-height:50px; color:#353535; font-weight:400}
+header[role="header"] footer > p,footer.mobile p{font-size: 10px;line-height:50px;color:#353535;font-weight:400;}
 
 header[role="header"] footer > p > i,footer.mobile p i{ color:#e84d49; display:inline-block; padding:0 5px}
 
