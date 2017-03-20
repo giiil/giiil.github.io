@@ -95,23 +95,14 @@ body, img {
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input, main {
-
-	-webkit-box-sizing: border-box;
-
-	-moz-box-sizing: border-box;
-
-	box-sizing: border-box;
-
-	margin: 0;
-
-	padding: 0;
-
-	vertical-align: baseline;
-
-	border: 0;
-
-	outline: 0;
-
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+border: 0;
+outline: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img, main {
@@ -214,9 +205,9 @@ header[role="header"]{ position: fixed; bottom:0; left:0; right:0; width:100%; p
 
 header[role="header"] > hgroup{background-color:rgba(255,255,255,0.7); overflow:hidden; position:relative }
 
-header[role="header"] > hgroup > h1{ padding:0; margin:0; display:inline-block; position:relative; z-index:5}
+header[role="header"] > hgroup > h1{padding:0;margin:0;display:inline-block;position:relative;z-index:5;}
 
-header[role="header"] > hgroup > h1 > a{ background-color:#353535; text-transform:uppercase; font-family: 'Oranienbaum', serif;text-align:center; font-size:24px; line-height:52px;color:#FFF ;display:inline-block; width:157px; font-weight:500; letter-spacing:5px;  }
+header[role="header"] > hgroup > h1 > a{background-color:#353535;text-transform:uppercase;font-family: 'Oranienbaum', serif;text-align:center;font-size:24px;line-height:52px;color:#FFF;display:inline-block;width:157px;font-weight:500;letter-spacing:5px;}
 
 header[role="header"] > hgroup > h1 > a:hover{ text-decoration:none}
 
@@ -270,7 +261,7 @@ article[role="countdown"].countdown-pan h2 > span{ font-size:72px; line-height:7
 
 article[role="countdown"].countdown-pan h2 > span:after{ content:""; display:block; width:98px; height:3px; position:absolute; left:0; right:0; bottom:-5px; margin:0 auto; background-color:#e84d49}
 
-article[role="countdown"].countdown-pan > p{ text-transform:uppercase; font-weight:700; letter-spacing:3px; margin:0; padding:0; padding-top:29px}
+article[role="countdown"].countdown-pan > p{text-transform:uppercase;font-weight: 300;letter-spacing:3px;margin:0;padding:0;padding-top:29px;}
 
 /*===== Page-title ===*/
 
