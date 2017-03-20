@@ -228,7 +228,7 @@ main[role="main-wrapper-iamge"] > .over-bg-color{background-color:rgba(255,255,2
 
 header[role="header"]{ position: fixed; bottom:0; left:0; right:0; width:100%; padding:0 5%; z-index:6}
 
-header[role="header"] > hgroup{background-color:rgba(255,255,255,0.7); overflow:hidden; position:relative }
+header[role="header"] > hgroup{background-color:rgba(255,255,255,0.7); overflow:visible; position:relative }
 
 header[role="header"] > hgroup > h1{padding:0;margin:0;display:inline-block;position:relative;z-index:5;}
 
