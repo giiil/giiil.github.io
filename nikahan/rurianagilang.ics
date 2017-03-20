@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:GilangPradana
+X-PUBLISHED-TTL:P1W
+BEGIN:VEVENT
+UID:58cfd5a32ad76
+DTSTART:20171007T040000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20171007T070000Z
+LOCATION:Gedung Dhanapala\, Kementrian Keuangan\, Jakarta
+SUMMARY:Ruriana Gilang Wedding
+CLASS:PUBLIC
+DESCRIPTION:Resepsi Pernikahan Ruriana Nafilah Anggraini dan Gilang Andi Pr
+ adana\n
+ORGANIZER:Ruriana dan Gilang <gilangandi@gmail.com>
+DTSTAMP:20170320T131411Z
+END:VEVENT
+END:VCALENDAR
