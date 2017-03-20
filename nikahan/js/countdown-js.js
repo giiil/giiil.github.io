@@ -48,9 +48,9 @@ setInterval(function () {
 
      
 
-    minutes = parseInt(seconds_left / 60);
+    //minutes = parseInt(seconds_left / 60);
 
-    seconds = parseInt(seconds_left % 60);
+    //seconds = parseInt(seconds_left % 60);
 
      
 

@@ -82,6 +82,14 @@ button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submi
 
 }
 
+#savedate{
+    border-radius: 0px;
+    background-color: #e84d49;
+    color: white;
+    padding: 10px;
+    margin-right: 17px;
+}
+
 body, img {
 
 	transition: all .2s linear;
@@ -95,14 +103,22 @@ body, img {
 }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input, main {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-vertical-align: baseline;
-border: 0;
-outline: 0;
+
+-webkit-box-sizing: border-box;
+
+-moz-box-sizing: border-box;
+
+box-sizing: border-box;
+
+margin: 0;
+
+padding: 0;
+
+vertical-align: baseline;
+
+border: 0;
+
+outline: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img, main {
@@ -261,13 +277,13 @@ article[role="countdown"].countdown-pan h2 > span{ font-size:72px; line-height:7
 
 article[role="countdown"].countdown-pan h2 > span:after{ content:""; display:block; width:98px; height:3px; position:absolute; left:0; right:0; bottom:-5px; margin:0 auto; background-color:#e84d49}
 
-article[role="countdown"].countdown-pan > p{text-transform:uppercase;font-weight: 300;letter-spacing:3px;margin:0;padding:0;padding-top:29px;}
+article[role="countdown"].countdown-pan > p{text-transform:uppercase;font-weight: 300;letter-spacing:3px;margin:0;padding:0;padding-top: 5px;}
 
 /*===== Page-title ===*/
 
-article header.page-title h2{ text-align:center;font-family: 'Oranienbaum', serif; text-transform:uppercase; font-size:24px; line-height:26px; color:#353535; font-weight:400; letter-spacing:3px; position:relative; margin-bottom:36px; padding:0; margin-top:0}
+article header.page-title h2{text-align: left;font-family: 'Oranienbaum', serif;text-transform:uppercase;font-size:24px;line-height:26px;color:#353535;font-weight:400;letter-spacing:3px;position:relative;margin-bottom:36px;padding:0;margin-top:0;}
 
-article header.page-title h2:after{ content:""; display:block; width:98px; height:3px; position:absolute; left:0; right:0; bottom:-12px; margin:0 auto; background-color:#e84d49}
+article header.page-title h2:after{content:"";display:block;width:98px;height:3px;position:absolute;left:0;right:0;bottom:-12px;margin-right: 0px;background-color:#e84d49;}
 
 /*===== Introduction ===*/
 
@@ -293,15 +309,15 @@ article[role="introduction"].introduction-pan ul > li:hover i{ color:#e84d49}
 
 article[role="subscribe"].subscribe-pan{ padding-top:22.6%}
 
-article[role="subscribe"].subscribe-pan form{width:429px; margin:0 auto; display:block; overflow:hidden; padding-top:5px; padding-bottom:10px}
+article[role="subscribe"].subscribe-pan form{width:429px;margin-left: 0px;display:block;overflow:hidden;padding-top:5px;padding-bottom:10px;}
 
-article[role="subscribe"].subscribe-pan form input[type="email"]{ display:block; width:369px; height:50px; outline:none; padding:0 10px; border:1px solid #353535; background-color: inherit; font-size:15px; line-height:16px; color:#353535; font-weight:300; float:left}
+article[role="subscribe"].subscribe-pan form input[type="email"]{display:block;width: 300px;height:50px;outline:none;padding:0 10px;border:1px solid #353535;background-color: inherit;font-size:15px;line-height:16px;color:#353535;font-weight:300;float:left;}
 
-article[role="subscribe"].subscribe-pan form label{ float:right; width:60px; height:50px; position:relative}
+article[role="subscribe"].subscribe-pan form label{width:60px;height:50px;position:relative;text-align: center;}
 
 article[role="subscribe"].subscribe-pan form label input{ font-size:0; display:block; border:none; outline:none; cursor:pointer;width:60px; height:50px; background-color:#35373e}
 
-article[role="subscribe"].subscribe-pan form label i { position:absolute; left:0; right:0; top:0; bottom:0; margin:auto; font-size:24px; color:#babbbd; cursor:pointer; line-height:50px}
+article[role="subscribe"].subscribe-pan form label i {position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;font-size:24px;color:#babbbd;cursor:pointer;line-height:50px;}
 
 article[role="subscribe"].subscribe-pan form label:hover input{ background-color:#e84d49}
 
